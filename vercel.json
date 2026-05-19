@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "bot.py": {
+      "runtime": "@vercel/python@4.0.0"
+    }
+  },
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "bot.py"
+    }
+  ]
+}
